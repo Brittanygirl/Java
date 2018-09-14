@@ -1,0 +1,27 @@
+(1)运行结果：
+icrosoft Windows [版本 10.0.17134.285]
+(c) 2018 Microsoft Corporation。保留所有权利。
+C:\Users\Lenovo>d:
+D:\>cd java
+D:\java>cd java-project
+D:\java\java-project>javac CompareHash.java
+D:\java\java-project>java CompareHash
+A flower on a stranger
+A flower on a stranger
+the address of a is :166239592
+the address of c is :166239592
+can slowly return
+the address of c is :1528637575
+(2)收获和解释
+  1.最大的收获是在查询如何在java中获得变量的值的时候，查询到了俩种获取方法。HashCode()和System.identityHashCode(Object)方法。
+HashCode()它的值根据字符串序列返回值，且该方法可以重写，System.identityHashCode() 返回对象的内存地址。
+https://blog.csdn.net/u010527630/article/details/40680133
+https://blog.csdn.net/id19870510/article/details/4877537
+https://blog.csdn.net/xusiwei1236/article/details/45152201
+有一大部分还没有看懂。
+  2.了解到在java中当字符串对象的值发生改变的时候，该对象的内存地址也会发生改变。java 中String 是个对象，是引用类型 
+基础类型与引用类型的区别是，基础类型只表示简单的字符或数字，引用类型可以是任何复杂的数据结构 ，基本类型仅表示简单的数据类型
+引用类型可以表示复杂的数据类型，还可以操作这种数据类型的行为 。java虚拟机处理基础类型与引用类型的方式是不一样的，对于基本类型
+java虚拟机会为其分配数据类型实际占用的内存空间，而对于引用类型变量，它仅仅是一个指向堆区中某个实例的指针。当引用类型变量的值发生改变的时候，指针的值会也会改变。
+  3.32位系统和64位系统的区别，以及数据类型的改变是由操作系统和编译器决定的，我是在https://blog.csdn.net/baidu_37964071/article/details/81389259
+上看到的。

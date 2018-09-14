@@ -1,0 +1,25 @@
+(1)运行结果：
+Microsoft Windows [版本 10.0.17134.285]
+(c) 2018 Microsoft Corporation。保留所有权利。
+C:\Users\Lenovo>d:
+D:\>cd java
+D:\java>cd java-project
+D:\java\java-project>javac Nursery.java
+D:\java\java-project>java Nursery
+4bottles of beer on the wall,4bottles of beer.
+Take one down,pass it around.
+3bottles of beer on the wall.
+3bottles of beer on the wall,3bottles of beer.
+Take one down,pass it around.
+2bottles of beer on the wall.
+2bottles of beer on the wall,2bottles of beer.
+Take one down,pass it around.
+1bottle of beer on the wall.
+1bottle of beer on the wall,1bottle of beer.
+Take one down,pass it around.
+No more bottles of beer on the wall.
+(2)感想和解释
+1.在做循环的时候应该尽量选择for语句和if语句，不要做成死循环。
+2.这个题目的重点考查在只有一瓶，即n=1的时候的，bottle的单复数。
+3.注意变量的取值尽量不要去固定，为了保持程序的独立性，尽量把变量的取值配置在配置文件当中。
+
