@@ -1,0 +1,17 @@
+(1)运行结果：
+C:\Users\Lenovo>cd desktop
+C:\Users\Lenovo\Desktop>javac Car.java
+C:\Users\Lenovo\Desktop>java Car
+请输入汽车的各个属性:
+jeep
+30
+9.8
+汽车的名称:jeep汽车的最大存储油量:30.0汽车的每小时的油耗:9.8
+(2)过程总结：
+a.首先是数据的输入，在网上查找有俩种输入方法，一种是使用Scanner类，用到java.util,
+另外一种是使用System.in.read(),需要java.io包,我选择了书上介绍的方式，就是定义了太多的参数，不太好。
+具体查看https://blog.csdn.net/g28_gwf/article/details/79306296
+b.再一次感受到写的时候必须严谨，一个符号的错误。
+
+
+
