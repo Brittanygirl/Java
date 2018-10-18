@@ -1,0 +1,4 @@
+运行结果说明：
+try和catch放在for循环外面的时候，输出结果只有一个Error，表明先执行catch语句，之后再执行for语句的时候遇到问题，捕捉到了，则结束for循环的执行
+故只执行一次。try和catch放在for循环里面的时候，输出结果有十个Errror。先执行for语句中的cnt=1的情况，再执行catch语句，catch捕捉到问题，执行catch
+的处理语句，再执行for语句。与语句执行的顺序有关。
